@@ -108,6 +108,10 @@ app.get('/', (request, response) => {
     response.sendFile(__dirname + '/index.html')
 })
 
+app.get('/images/mario.png', (request, response) => {
+    response.sendFile(__dirname + '/images/mario.png')
+})
+
 app.get('/api/:characterName', (request, response) => {
     const characterName = request.params.characterName.toLowerCase()
     if (marioCharacters[characterName]) {
