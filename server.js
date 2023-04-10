@@ -10,7 +10,7 @@ const marioCharacters = {
         name: 'Mario',
         strength: 'Jumping ability',
         origin: 'Donkey Kong (1981)',
-        image: '../images/mario.png'
+        image: 'https://odd-colt-vestments.cyclic.app/images/mario.png'
     },
     'luigi': {
         name: 'Luigi',
