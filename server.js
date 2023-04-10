@@ -82,11 +82,6 @@ const marioCharacters = {
         strength: "Strength, fire breath",
         origin: "Super Mario Sunshine (2002)"
       },
-      'birdo':{
-        name: 'Birdo',
-        strength: "Egg spitting",
-        origin: "Super Mario Bros. 2 (1988)"
-      },
       'walugi':{
         name: 'Walugi',
         strength: "Speed, agility",
