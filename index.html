@@ -1,15 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Mario Character API</title>
 </head>
+
 <body>
     <h1>Super Mario Bros Character API</h1>
     <p>Use the following link in your fetch, change the "character name" to match who you're searching for.</p>
     <p>https://odd-colt-vestments.cyclic.app/api/Character Name</p>
-    
+    <form action="">
+        <fieldset>
+            <legend>Enter Your Character</legend>
+            <div class="choicebox">
+                <input id="searchBar" type="text" name="character" placeholder="Character Name">
+                <button id="btn" type="button" name="search">Search</button>
+            </div>
+        </fieldset>
+    </form>
+
+    <!-- Grid box for character display -->
+    <!-- Character info -->
+    <div class="infoGrid">
+        <div class="characterInfo">
+            <div class="leftGrid">
+                <h2 id="name"></h2>
+                <h2 id="strength"></h2>
+                <h2 id="origin"></h2>
+            </div>
+        </div>
+        <!-- character image -->
+        <div class="rightGrid">
+            <img src="" alt="">
+        </div>
+    </div>
+
+
+    <script src="js/main.js" type="module"></script>
 </body>
+
 </html>
