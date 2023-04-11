@@ -120,12 +120,12 @@ app.get('/', (request, response) => {
     response.sendFile(__dirname + '/index.html')
 })
 
-app.get('/css/style.css', (request, response) => {
-  response.sendFile(__dirname + '/css/style.css')
-})
-
 app.get('/css/normalize.css', (request, response) => {
   response.sendFile(__dirname + '/css/normalize.css')
+})
+
+app.get('/css/style.css', (request, response) => {
+  response.sendFile(__dirname + '/css/style.css')
 })
 
 app.get('/images/mario.png', (request, response) => {

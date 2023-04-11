@@ -16,10 +16,15 @@ async function apiRequest() {
         const data = await response.json()
 
         console.log(data)
+
         document.getElementById('name').innerText = data.name
+
         document.getElementById('strength').innerText = data.strength
+
         document.getElementById('origin').innerText = data.origin
+
         document.querySelector('img').src = data.image
+        
     } catch (error) {
         console.log(error)
     }
