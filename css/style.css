@@ -87,13 +87,11 @@ p {
 .leftGrid {
     display: flex;
     justify-content: flex-end;
-    align-items: flex-start;
+    align-items: center;
     flex-wrap: wrap;
-    align-content: flex-start;
 }
 .leftGrid h2 {
-    margin: 0;
-    white-space: pre-wrap;
+    display: block;
 }
 .rightGrid {
     display: flex;
@@ -101,7 +99,7 @@ p {
     align-items: center;
 }
 img {
-    width: 50%;
-    height: 50%;
+    width: 65%;
+    height: auto;
     object-fit: contain;
 }

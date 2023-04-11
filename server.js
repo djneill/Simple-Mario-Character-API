@@ -49,25 +49,25 @@ const marioCharacters = {
         image: 'https://odd-colt-vestments.cyclic.app/images/donkeykong.png'
       },
       'diddy kong':{
-        name: 'Diddy Kong',
+        name: 'diddy kong',
         strength: "Agility, cartwheeling",
         origin: "Donkey Kong Country (1994)",
         image: 'https://odd-colt-vestments.cyclic.app/images/diddy.png'
       },
       'toad':{
-        name: 'Toad',
+        name: 'toad',
         strength: "Speed, digging",
         origin: "Super Mario Bros. (1985)",
         image: 'https://odd-colt-vestments.cyclic.app/images/toad.png'
       },
       'goomba':{
-        name: 'Goomba',
+        name: 'goomba',
         strength: "Low-level enemy",
         origin: "Super Mario Bros. (1985)",
         image: 'https://odd-colt-vestments.cyclic.app/images/goomba.png'
       },
       'koopa troopa':{
-        name: 'Koopa Troopa',
+        name: 'koopa troopa',
         strength: "Shell, high defense",
         origin: "Super Mario Bros. (1985)",
         image: 'https://odd-colt-vestments.cyclic.app/images/koopa.png'
@@ -79,31 +79,31 @@ const marioCharacters = {
         image: 'https://odd-colt-vestments.cyclic.app/images/daisy.png'
       },
       'rosalina':{
-        name: 'Rosalina',
+        name: 'rosalina',
         strength: "Magic, flight",
         origin: "Super Mario Galaxy (2007)",
         image: 'https://odd-colt-vestments.cyclic.app/images/rosalina.png'
       },
       'toadette':{
-        name: 'Toadette',
+        name: 'toadette',
         strength: "Speed, digging",
         origin: "Mario Kart: Double Dash!! (2003)",
         image: 'https://odd-colt-vestments.cyclic.app/images/toadette.png'
       },
-      'bowser jr.':{
-        name: 'Bowser Jr.',
+      'bowser jr':{
+        name: 'bowser jr',
         strength: "Strength, fire breath",
         origin: "Super Mario Sunshine (2002)",
         image: 'https://odd-colt-vestments.cyclic.app/images/bowserjr.png'
       },
       'waluigi':{
-        name: 'Waluigi',
+        name: 'waluigi',
         strength: "Speed, agility",
         origin: "Mario Tennis (2000)",
         image: 'https://odd-colt-vestments.cyclic.app/images/waluigi.png'
       },
       'shy guy':{
-        name: 'Shy Guy',
+        name: 'shy Guy',
         strength: "Low-level enemy",
         origin: "Yume Kōjō: Doki Doki Panic (1987)",
         image: 'https://odd-colt-vestments.cyclic.app/images/shyguy.png'
