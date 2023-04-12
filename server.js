@@ -217,6 +217,10 @@ app.get('/images/yoshi.png', (request, response) => {
   response.sendFile(__dirname + '/images/yoshi.png')
 })
 
+app.get('/images/mback.jpg', (request, response) => {
+  response.sendFile(__dirname + '/images/mback.jpg')
+})
+
 app.listen(PORT, () => {
     console.log(`The server is running on port ${PORT}! Ya betta go catch it!`)
 })

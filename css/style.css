@@ -3,18 +3,21 @@ body {
     background-size: cover;
     background-origin: inherit;
 }
+
 @media all and (min-width: 481) and (max-width: 768px) {
     body {
         background-image: url('../images/back.jpg');
         background-size: contain;
     }
 }
+
 @media all and (max-width: 480px) {
     body {
-        background-image: url('../images/back.jpg');
-        background-size: contain;
+        background-image: url('../images/mback.jpg');
+        background-size: cover;
     }
 }
+
 fieldset {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 1.5rem;
@@ -26,9 +29,11 @@ fieldset {
     padding: 3% 2%;
     margin: auto;
 }
+
 legend {
     text-align: center;
 }
+
 button {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #fff;
@@ -38,6 +43,7 @@ button {
     text-align: center;
     margin: auto;
 }
+
 input {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #fff;
@@ -47,6 +53,60 @@ input {
     text-align: center;
     margin: auto;
 }
+
+@media all and (max-width: 480px) {
+    fieldset {
+        width: 100%;
+        height: auto;
+    }
+
+    input {
+        width: 80%;
+        height: auto;
+        margin: 1rem;
+    }
+
+    button {
+        width: auto;
+        height: auto;
+        text-align: center;
+    }
+}
+
+h2.clickMe {
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin: 2rem;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.btn {
+    text-decoration: none;
+    text-align: center;
+    background-color: rgba(246, 11, 11, 0.969);
+    border: blue 3px solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    -webkit-box-shadow: 10px 10px 16px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 16px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 16px 0px rgba(0, 0, 0, 0.75);
+}
+
+a {
+    text-decoration: none;
+}
+@media screen and (max-width: 480px) {
+    h2.clickMe, .btn {
+        display: flex;
+        justify-content: center;
+        width: auto;
+        height: auto;
+        text-align: center;
+    }
+}
+
 h1 {
     font-family: 'Lobster', cursive;
     font-size: 3rem;
@@ -56,15 +116,18 @@ h1 {
     margin: 0;
     padding: 0;
 }
-h2{
+
+h2 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 1.5rem;
-    color: #fff;
-    text-shadow: 2px 2px 2px #000;
+    text-emphasis: bold;
+    color: rgba(246, 11, 11, 0.969);
+    text-shadow: 3px 3px 3px #000;
     text-align: center;
     margin: 0;
     padding: 0;
 }
+
 p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 1.5rem;
@@ -74,16 +137,30 @@ p {
     margin: 0;
     padding: 0;
 }
+
 .infoGrid {
     display: grid;
     justify-content: center;
     align-items: center;
     grid-template: 1fr / repeat(2, 1fr);
-    grid-gap: 1rem;
+    grid-gap: 2rem;
 }
+
+@media all and (max-width: 480px) {
+    .infoGrid {
+        display: grid;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        grid-template: 1fr 1fr / 1fr;
+        grid-gap: 2rem;
+    }
+}
+
 .characterInfo {
     display: flex;
 }
+
 .leftGrid {
     display: flex;
     flex-direction: column;
@@ -91,18 +168,61 @@ p {
     align-items: flex-end;
     flex-wrap: wrap;
 }
+
 .leftGrid h2 {
     display: block;
     line-height: 4rem;
     font-size: 2rem;
 }
+
+@media all and (max-width: 480px) {
+    .leftGrid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .leftGrid h2 {
+        display: block;
+        line-height: 3rem;
+        font-size: 2rem;
+    }
+}
+
 .rightGrid {
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
+
+@media all and (max-width: 480px) {
+    .rightGrid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rightGrid h2 {
+        display: block;
+        line-height: 1rem;
+        font-size: .5rem;
+    }
+}
+
 img {
-    width: 65%;
+    width: 70%;
     height: auto;
     object-fit: contain;
+}
+@media all and (max-width: 480px) {
+    img {
+        width: 60%;
+        height: auto;
+        object-fit: contain;
+    }
+}
+    
 }
