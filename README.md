@@ -45,7 +45,7 @@ Take a look at it here 👉 https://odd-colt-vestments.cyclic.app/
      
 <h2 align="center">How to use it in your own project</h2>
 <p>Place this url in your fetch - `https://odd-colt-vestments.cyclic.app/api/${characterName}`</p>
-<p>${characterName} should take the input value from <input type="text"> (if you're using a search bar) or <input type="radio"> (if you're using a radio button).</p>
+<p>${characterName} should take the input value from ~input type="text"~ if you're using a search bar or ~input type="radio"~ if you're using a radio button.</p>
 <p>Your client side javascript fetch would look like this.</p>
 
 ```
