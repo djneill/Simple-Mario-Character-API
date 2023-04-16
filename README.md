@@ -12,7 +12,7 @@
 </tr>
 </table>
 
-Take a look at it here 👉 https://odd-colt-vestments.cyclic.app/
+Take a look at it here on cyclic 👉 https://odd-colt-vestments.cyclic.app/
 
 <h2 align="center">Technology Used</h2>
     <p align="center"> 
