@@ -12,9 +12,9 @@
 </tr>
 </table>
 
-<p>Take a look at it here on cyclic 👉 https://simple-mario-character-api.vercel.app/</p>
+<p>Take a look at it here on cyclic 👉 https://odd-colt-vestments.cyclic.app/</p>
 <p>https://super-mario-bros-character-api.onrender.com/</p>
-<p>*Render does take a minute to spin up the first time</p>
+<p>*Render does take a minute to spin up the first time*</p>
 
 <h2 align="center">Technology Used</h2>
     <p align="center"> 
