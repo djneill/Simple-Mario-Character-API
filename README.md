@@ -45,7 +45,7 @@
 <p>This is a simple API with the character objects stored server side. When you enter the characters name it will display thier name, ability, the first game they appeared in, and their picture.
      
 <h2 align="center">How to use it in your own project</h2>
-<p>Place this url in your fetch - `https://odd-colt-vestments.cyclic.app/api/${characterName}`</p>
+<p>Place this url in your fetch - `https://super-mario-bros-character-api.onrender.com/api/${characterName}`</p>
 <p>${characterName} should take the input value from ~input type="text"~ if you're using a search bar or ~input type="radio"~ if you're using a radio button.</p>
 <p>Your client side javascript fetch would look like this.</p>
 
