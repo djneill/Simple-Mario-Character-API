@@ -53,7 +53,7 @@
 async function apiRequest() {
     const characterName = document.querySelector('#searchBar').value.toLowerCase()
     try {
-        const response = await fetch(`https://odd-colt-vestments.cyclic.app/api/${characterName}`)
+        const response = await fetch(`https://super-mario-bros-character-api.onrender.com/api/${characterName}`)
         const data = await response.json()
 
         console.log(data)
