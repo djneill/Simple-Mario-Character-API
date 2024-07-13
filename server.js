@@ -10,109 +10,109 @@ const marioCharacters = {
         name: 'Mario',
         strength: 'Jumping ability',
         origin: 'Donkey Kong (1981)',
-        image: 'https://simple-mario-character-api.vercel.app/images/mario.png'
+        image: 'https://super-mario-bros-character-api.onrender.com/images/mario.png'
     },
     'luigi': {
         name: 'Luigi',
         strength: 'Jumping ability, speed',
         origin: 'Mario Bros. (1983)',
-        image: 'https://simple-mario-character-api.vercel.app/images/luigi.png'
+        image: 'https://super-mario-bros-character-api.onrender.com/images/luigi.png'
     },
     'princess peach': {
         name: 'Princess Peach',
         strength: "Magical powers",
         origin: "Super Mario Bros. (1985)",
-        image: 'https://simple-mario-character-api.vercel.app/images/peach.png'
+        image: 'https://super-mario-bros-character-api.onrender.com/images/peach.png'
     },
     'bowser':{
         name: 'Bowser',
         strength: "Strength, fire breath",
         origin: "Super Mario Bros. (1985)",
-        image: 'https://simple-mario-character-api.vercel.app/images/bowser.png'
+        image: 'https://super-mario-bros-character-api.onrender.com/images/bowser.png'
       },
       'yoshi':{
         name: 'Yoshi',
         strength: "Swallowing enemies, long tongue",
         origin: "Super Mario World (1990)",
-        image: 'https://simple-mario-character-api.vercel.app/images/yoshi.png'
+        image: 'https://super-mario-bros-character-api.onrender.com/images/yoshi.png'
       },
       'wario':{
         name: 'Wario',
         strength: "Strength, flatulence",
         origin: "Super Mario Land 2: 6 Golden Coins (1992)",
-        image: 'https://simple-mario-character-api.vercel.app/images/wario.png'
+        image: 'https://super-mario-bros-character-api.onrender.com/images/wario.png'
       },
       'donkey kong':{
         name: 'Donkey Kong',
         strength: "Strength, throwing barrels",
         origin: "Donkey Kong (1981)",
-        image: 'https://simple-mario-character-api.vercel.app/images/donkeykong.png'
+        image: 'https://super-mario-bros-character-api.onrender.com/images/donkeykong.png'
       },
       'diddy kong':{
         name: 'diddy kong',
         strength: "Agility, cartwheeling",
         origin: "Donkey Kong Country (1994)",
-        image: 'https://simple-mario-character-api.vercel.app/images/diddy.png'
+        image: 'https://super-mario-bros-character-api.onrender.com/images/diddy.png'
       },
       'toad':{
         name: 'toad',
         strength: "Speed, digging",
         origin: "Super Mario Bros. (1985)",
-        image: 'https://simple-mario-character-api.vercel.app/images/toad.png'
+        image: 'https://super-mario-bros-character-api.onrender.com/images/toad.png'
       },
       'goomba':{
         name: 'goomba',
         strength: "Low-level enemy",
         origin: "Super Mario Bros. (1985)",
-        image: 'https://simple-mario-character-api.vercel.app/images/goomba.png'
+        image: 'https://super-mario-bros-character-api.onrender.com/images/goomba.png'
       },
       'koopa troopa':{
         name: 'koopa troopa',
         strength: "Shell, high defense",
         origin: "Super Mario Bros. (1985)",
-        image: 'https://simple-mario-character-api.vercel.app/images/koopa.png'
+        image: 'https://super-mario-bros-character-api.onrender.com/images/koopa.png'
       },
       'princess daisy':{
         name: 'Princess Daisy',
         strength: "Flower power",
         origin: "Super Mario Land (1989)",
-        image: 'https://simple-mario-character-api.vercel.app/images/daisy.png'
+        image: 'https://super-mario-bros-character-api.onrender.com/images/daisy.png'
       },
       'rosalina':{
         name: 'rosalina',
         strength: "Magic, flight",
         origin: "Super Mario Galaxy (2007)",
-        image: 'https://simple-mario-character-api.vercel.app/images/rosalina.png'
+        image: 'https://super-mario-bros-character-api.onrender.com/images/rosalina.png'
       },
       'toadette':{
         name: 'toadette',
         strength: "Speed, digging",
         origin: "Mario Kart: Double Dash!! (2003)",
-        image: 'https://simple-mario-character-api.vercel.app/images/toadette.png'
+        image: 'https://super-mario-bros-character-api.onrender.com/images/toadette.png'
       },
       'bowser jr':{
         name: 'bowser jr',
         strength: "Strength, fire breath",
         origin: "Super Mario Sunshine (2002)",
-        image: 'https://simple-mario-character-api.vercel.app/images/bowserjr.png'
+        image: 'https://super-mario-bros-character-api.onrender.com/images/bowserjr.png'
       },
       'waluigi':{
         name: 'waluigi',
         strength: "Speed, agility",
         origin: "Mario Tennis (2000)",
-        image: 'https://simple-mario-character-api.vercel.app/images/waluigi.png'
+        image: 'https://super-mario-bros-character-api.onrender.com/images/waluigi.png'
       },
       'shy guy':{
         name: 'shy Guy',
         strength: "Low-level enemy",
         origin: "Yume Kōjō: Doki Doki Panic (1987)",
-        image: 'https://simple-mario-character-api.vercel.app/images/shyguy.png'
+        image: 'https://super-mario-bros-character-api.onrender.com/images/shyguy.png'
       },
       'unknown':{
         name: 'unlisted character found',
         strength: 'try again',
         origin: 'more data will be added at a later date',
-        image: 'https://simple-mario-character-api.vercel.app/images/box.png'
+        image: 'https://super-mario-bros-character-api.onrender.com/images/box.png'
       }
     }
 
